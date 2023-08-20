@@ -1,0 +1,38 @@
+body {background: linear-gradient(90deg, black, black, purple, black, black);}
+.grid-container-1{display: grid; grid-template-areas:"unit-1 unit-3""unit-2 unit-4""unit-5 unit-6""unit-7 unit-8"; width: 100%;}
+.gridunit-1 {grid-area: unit-1;}
+.gridunit-2 {grid-area: unit-2;}
+.gridunit-3 {grid-area: unit-3;}
+.gridunit-4 {grid-area: unit-4;}
+.gridunit-5 {grid-area: unit-5;}
+.gridunit-6 {grid-area: unit-6;}
+.gridunit-7 {grid-area: unit-7;}
+.gridunit-8 {grid-area: unit-8;}
+.grid-container-2{display: grid; grid-template-areas: "unit-9 unit-11""unit-10 unit-12""unit-13 unit-14""unit-15 unit-16"; width: 100%;}
+.gridunit-9 {grid-area: unit-9;}
+.gridunit-10 {grid-area: unit-10;}
+.gridunit-11 {grid-area: unit-11;}
+.gridunit-12 {grid-area: unit-12;}
+.gridunit-13 {grid-area: unit-13;}
+.gridunit-14 {grid-area: unit-14;}
+.gridunit-15 {grid-area: unit-15;}
+.gridunit-16 {grid-area: unit-16;}
+.grid-container-3 {display: grid; grid-template-areas: "unit-17 unit-19""unit-18 unit-20""unit-21 unit-22""unit-23 unit-24"; width: 100%;}
+.gridunit-17 {grid-area: unit-17;}
+.gridunit-18 {grid-area: unit-18;}
+.gridunit-19 {grid-area: unit-19;}
+.gridunit-20 {grid-area: unit-20;}
+.gridunit-21 {grid-area: unit-21;}
+.gridunit-22 {grid-area: unit-22;}
+.gridunit-23 {grid-area: unit-23;}
+.gridunit-24 {grid-area: unit-24;}
+header {background: linear-gradient(90deg, black, black, purple, black, black); border: solid 6px; margin: 10px 0 15px 0;}
+main {background: linear-gradient(90deg, black, black, purple, black, black); border: solid 6px; margin: 10px 0 15px 0;}
+button {width: 100%; margin: 0 0 0 0;}
+h1 {width: 100%; margin: 0 0 0 0; font-family: Arial; font-size: 17px; text-align: center;}
+h2 {width: 100%; margin: 0 0 0 0; font-family: cursive; font-size: 16px; text-align: center;}
+p {display: flex; justify-content: center; align-items: center; margin: 0 0 0 0; font-size: 13px;}
+h5 {width: 100%; font-family: cursive; margin: 0 0 0 0; text-align: center; color: red;}
+h6 {width: 100%; font-family: cursive; margin: 0 0 0 0; text-align: center;}
+tr {border: solid 6px;}
+td {border: border-collapse;}
